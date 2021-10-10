@@ -1,0 +1,31 @@
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background: rgba(170, 151, 255, 0.795);
+    padding: 1rem;
+    border-radius: 10px;
+    width: 80%;
+    min-height: 80%;
+    position: relative;
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border: 2px solid #fff;
+    outline: none;
+    p {
+        font-family: "Hind Siliguri", sans-serif;
+        color: #fff;
+    }
+}
+
+.closeIcon {
+    font-size: 2rem;
+    color: #ff60b8;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    cursor: pointer;
+}

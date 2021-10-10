@@ -1,0 +1,111 @@
+.main {
+    z-index: 1;
+    position: absolute;
+    left: 1%;
+    top: 50%;
+    padding: 1rem;
+    transform: translate(0, -50%);
+    border-radius: 10px;
+    background-color: rgba(34, 0, 187, 0.301);
+
+    textarea {
+        background-color: rgba(170, 151, 255, 0.377);
+        font-family: "Hind Siliguri", sans-serif;
+        color: #fff;
+        width: 100%;
+        height: 100%;
+        resize: none;
+        padding: .5rem;
+        border: 1px solid rgba(63, 0, 165, 0.404);
+        
+        &:focus {
+            outline: none !important;
+            border: 2px solid rgba(63, 0, 165, 0.404);
+            box-shadow: inset 0 0 5px #2f08be73;
+        }
+
+        &::-webkit-scrollbar {
+            width: 12px;
+            background-color: #00065a44;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            -webkit-box-shadow: inset 0 0 6px rgba(34, 0, 187, 0.068);
+            background-color: rgba(34, 0, 187, 0.699);
+        }
+    }
+
+    p {
+        font-size: 1rem;
+        color: #fff;
+    }
+}
+
+.rightMenu {
+    z-index: 1;
+    position: absolute;
+    right: 1%;
+    top: 50%;
+    padding: 1rem;
+    transform: translate(0, -50%);
+    border-radius: 10px;
+    background-color: rgba(34, 0, 187, 0.301);
+    color: #fff;
+}
+
+.button {
+    font-family: "Hind Siliguri", sans-serif !important;
+    font-weight: bold !important;
+    color: #f2f2f2 !important;
+}
+
+.multiToggle {
+    background-color: rgba(34, 0, 187, 0.301);
+    .multiToggleButton {
+        color: #fff;
+        font-family: "Hind Siliguri", sans-serif !important;
+        font-weight: 500;
+    }
+}
+
+.github {
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 1;
+    color: rgb(24, 24, 24);
+}
+
+.fullScreen {
+    position: absolute;
+    right: 1%;
+    bottom: 1%;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 1;
+    color: rgb(34, 0, 187);
+    transition: all .2s;
+    &:hover{
+        font-size: 2.5rem;
+    }
+
+}
+
+.switchButton{
+    display: flex;
+    justify-content: flex-start;
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        font-size: 0.6rem;
+        width: 35%;
+    }
+    .rightMenu{
+        width: 35%;
+        font-size: 0.6rem;
+    }
+}
