@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/NodeGraphDrawingTool/static/css/main.39180f27.chunk.css",
+    "main.js": "/NodeGraphDrawingTool/static/js/main.939ea34e.chunk.js",
+    "main.js.map": "/NodeGraphDrawingTool/static/js/main.939ea34e.chunk.js.map",
+    "runtime-main.js": "/NodeGraphDrawingTool/static/js/runtime-main.016fe76c.js",
+    "runtime-main.js.map": "/NodeGraphDrawingTool/static/js/runtime-main.016fe76c.js.map",
+    "static/js/2.e7fda7de.chunk.js": "/NodeGraphDrawingTool/static/js/2.e7fda7de.chunk.js",
+    "static/js/2.e7fda7de.chunk.js.map": "/NodeGraphDrawingTool/static/js/2.e7fda7de.chunk.js.map",
+    "static/js/3.bd931aa2.chunk.js": "/NodeGraphDrawingTool/static/js/3.bd931aa2.chunk.js",
+    "static/js/3.bd931aa2.chunk.js.map": "/NodeGraphDrawingTool/static/js/3.bd931aa2.chunk.js.map",
+    "index.html": "/NodeGraphDrawingTool/index.html",
+    "static/css/main.39180f27.chunk.css.map": "/NodeGraphDrawingTool/static/css/main.39180f27.chunk.css.map",
+    "static/js/2.e7fda7de.chunk.js.LICENSE.txt": "/NodeGraphDrawingTool/static/js/2.e7fda7de.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/NodeGraphDrawingTool/static/media/back.d76ef7ef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.016fe76c.js",
+    "static/js/2.e7fda7de.chunk.js",
+    "static/css/main.39180f27.chunk.css",
+    "static/js/main.939ea34e.chunk.js"
+  ]
+}
