@@ -221,7 +221,7 @@ const NodeGraph = (props) => {
 
     return (
         <>
-            <a href="https://github.com/Serjeel-Ranjan-911" target="_blank">
+            <a href="https://github.com/Serjeel-Ranjan-911/NodeGraphDrawingTool" target="_blank">
                 <AiFillGithub className={style.github}></AiFillGithub>
             </a>
             <RiFullscreenFill className={style.fullScreen} onClick={fullScreenToggle}></RiFullscreenFill>
